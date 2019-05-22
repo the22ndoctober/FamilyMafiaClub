@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         var array = mutableListOf(
             Player("Floppy", "Targaryen", 0.5),
             Player("Seezov", "Targaryen", 0.7),
-            Player("Fantazer", "Starks", 0.1),
+            Player("Fantazer", "Stark", 0.1),
             Player("Игривый", "Targaryen", 0.9)
         )
         var adapter = CustomAdapter(array)
